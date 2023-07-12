@@ -1,0 +1,1 @@
+ctrl+C para finalizar processo.

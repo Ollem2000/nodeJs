@@ -1,0 +1,1 @@
+Iniciar arquivo require para puxar o arquivo export
