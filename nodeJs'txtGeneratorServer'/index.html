@@ -1,0 +1,22 @@
+<!--Programa gerado pelo chatGPT para estudos-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de botão com AJAX</title>
+</head>
+<body>
+  <button id="btnSalvar">Salvar Lista</button>
+
+  <script>
+    document.getElementById('btnSalvar').addEventListener('click', function () {
+      // Envia uma solicitação POST para o servidor Node.js
+      fetch('/salvar', {
+        method: 'POST',
+      })
+      .then(response => response.text())
+      .then(data => alert(data))
+      .catch(error => console.error('Ocorreu um erro:', error));
+    });
+  </script>
+</body>
+</html>
