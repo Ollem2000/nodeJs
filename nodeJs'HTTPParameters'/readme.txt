@@ -1,1 +1,1 @@
-requisition //tente executa-lo e no navegador digite "localhost:3000?name=some-value" ou apenas "localhost:3000/some-value"
+requisition //tente executá-lo e no navegador digite "localhost:3000?name=some-value" ou apenas "localhost:3000/some-value"
