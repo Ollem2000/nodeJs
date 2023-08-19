@@ -1,5 +1,3 @@
-
-
 function getUsers(){
 	fetch(url)
 		.then(r => r.json())
